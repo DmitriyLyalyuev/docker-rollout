@@ -4,6 +4,7 @@ set -e
 # Defaults
 HEALTHCHECK_TIMEOUT=60
 NO_HEALTHCHECK_TIMEOUT=10
+REPLICAS_COUNT=1
 
 # Print metadata for Docker CLI plugin
 if [[ "$1" == "docker-cli-plugin-metadata" ]]; then
